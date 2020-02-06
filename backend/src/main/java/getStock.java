@@ -18,7 +18,7 @@ public class getStock {
 
         HttpRequest request = HttpRequest.newBuilder()
                 .GET()
-                .uri(URI.create("https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=MSFT&apikey=6PD2VKYE4A1XZ62U"))
+                .uri(URI.create("https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=MSFT&apikey="))
                 //.header("content-type", "application/json")
                 .build();
 
